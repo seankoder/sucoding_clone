@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Dancing+Script:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/gray_back_wide.jpeg');
+}
+
+.main-txt {
+    margin: 10px;
+}
+
+.main-txt h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: #fff
+}
+
+.sm-txt {
+    margin: 10px;
+}
+
+.sm-txt p{    
+    font-size: 23px;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn button {
+    background: none;
+    border: 2px solid white;
+    padding: 15px 20px;
+    font-size: 17px;
+    
+    
+}
+
+
+

@@ -1,0 +1,16 @@
+font : google font, Dancing Script Medium 500
+
+
+
+Contents
+
+Simple, One Page Design (70px)
+
+A free landing page theme with video background (23px)
+
+Get Started (17px)
+
+
+
+
+hover --> change to color red (or red/orange)
