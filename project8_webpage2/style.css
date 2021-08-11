@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 * {
     margin: 0;
@@ -7,12 +8,16 @@
 }
 
 body {
+    
+    background-image: url('./images/gray_back_wide.jpeg');
+}
+
+.container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/gray_back_wide.jpeg');
 }
 
 .main-txt {
@@ -31,20 +36,29 @@ body {
 
 .sm-txt p{    
     font-size: 23px;
+    
     color: #fff;
+    font-family: 'Questrial', sans-serif;
 }
 
 .btn {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .btn button {
     background: none;
     border: 2px solid white;
-    padding: 15px 20px;
-    font-size: 17px;
-    
-    
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn button:hover {
+    background: rgb(197, 105, 105);
 }
 
 
